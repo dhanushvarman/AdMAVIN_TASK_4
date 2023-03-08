@@ -5,9 +5,43 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black !important;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* Topbar */
+#navbar-example2{
+  top: 20px;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  background-color: gray !important;
+  border-radius: 20px !important;
+}
+
+.navbar-brand{
+  color: white !important;
+  font-size: x-large !important;
+}
+
+/* Game */
+.square{
+  border-style: solid;
+}
+
+.innerSquares{
+  height: 150px;
+  width: 150px;
+}
+
+.center{
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  font-size:x-large;
+  font-weight: bolder;
 }
