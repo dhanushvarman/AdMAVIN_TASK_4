@@ -27,7 +27,7 @@ function Game() {
         const intervalTwo = setInterval(() => {
             const randomIndex = Math.floor(Math.random() * 9);
             setKeywordIndex(randomIndex);
-        }, 1500);
+        }, 1000);
 
         setTimeout(() => {
             clearInterval(intervalTwo);
